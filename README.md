@@ -1,7 +1,5 @@
 #🎵 MusicAI Mobil Uygulama Arayüzü Eterna Case
 
--------------------
-
 ##📱 Proje Hakkında
 
 MusicAI - Eterna Case, yapay zeka destekli bir müzik uygulamasının modern ve kullanıcı dostu arayüzünü sergileyen bir prototip projedir. Bu projeyi Eterna şirketi için case study olarak geliştirdim.
