@@ -1,4 +1,4 @@
-## 🎵 MusicAI Mobil Uygulama Arayüzü Eterna Case
+🎵 MusicAI Mobil Uygulama Arayüzü Eterna Case
 
 ## 📱 Proje Hakkında
 
