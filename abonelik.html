@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eterna-case</title>
+    <link rel="stylesheet" href="./styles/abonelik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="main_container">
+        <header>
+            <nav class="header_nav">
+                <ul>
+                    <li><img src="./assets/time.svg" alt=""></li>
+                </ul>
+                <ul>
+                    <li><img src="./assets/signal.svg" alt=""></li>
+                    <li><img src="./assets/wifi.svg" alt=""></li>
+                    <li><img src="./assets/battery.svg" alt=""></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main_title">
+            <a href="./index.html"><img class="back_arrow" src="./assets/back-arrow.svg" alt=""></a>
+            <p>MusicAI</p>
+            <img src="./assets/pro.svg" alt="">
+        </div>
+
+        <div class="second_title">
+            <p>MusicAI Uygulamasının tadını çıkar!</p>
+        </div>
+
+        <div class="price_container">
+            <div class="price_option" onclick="selectOption(this)">
+                <div class="radio"></div>
+                <div class="option_text">
+                    <p class="title">Aylık</p>
+                    <p class="price">₺3.99 / aylık</p>
+                </div>
+            </div>
+            <hr />
+            <div class="price_option selected" onclick="selectOption(this)">
+                <div class="radio checked">✔</div>
+                <div class="option_text">
+                    <p class="title">Yıllık</p>
+                    <p class="price">₺19.99 / yıllık</p>
+                </div>
+                <div class="tag">AVANTAJLI</div>
+            </div>
+        </div>
+
+        <div class="content_title">
+            <p>İçindekiler</p>
+        </div>
+
+        <div class="content_container">
+            <div class="content_item">
+                <img src="./assets/flash.svg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="content_item">
+                <img src="./assets/flash.svg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="content_item">
+                <img src="./assets/flash.svg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="content_item">
+                <img src="./assets/flash.svg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="content_item">
+                <img src="./assets/flash.svg" alt="">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <button class="upgrade-button">
+                <img src="./assets/gift.svg" alt="Gift">
+                Hemen Yükselt
+            </button>
+            <p class="footer-text">3 gün ücretsiz dene, sonra ₺19.99 / yıllık. İstediğin zaman iptal et.</p>
+        </footer>
+
+
+
+
+    </main>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: rgb(160, 153, 255);
+    background: linear-gradient(180deg, rgba(160, 153, 255, 1) 0%, rgba(22, 22, 22, 1) 100%);
+}
+
+.main_container {
+    width: 327px;
+    margin: 0 auto;
+}
+
+.header_nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: .3rem;
+}
+
+.header_nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_title {
+    position: relative;
+    color: #000;
+    margin: 0 auto;
+    margin-top: 2rem;
+    gap: .3rem;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_arrow {
+    position: absolute;
+    left: 0;
+    width: 25px;
+}
+
+.second_title {
+    color: #000;
+    margin: 0 auto;
+    margin-top: 2rem;
+    gap: .3rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.price_container {
+    width: 327px;
+    margin-top: 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Seçenek kutusu */
+.price_option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* Seçili olan kutu */
+.selected {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Yuvarlak radio butonu */
+.radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+/* Seçili buton */
+.checked {
+    background: white;
+    color: black;
+}
+
+/* Metin kısmı */
+.option_text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+/* Çizgi */
+hr {
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+/* AVANTAJLI Tag */
+.tag {
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content_title {
+    color: #B0B0B0;
+    margin: 0 auto;
+    margin-top: 2rem;
+    gap: .3rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content_container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content_item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 2rem;
+    bottom: 1rem;
+    gap: 1rem;
+    padding: .7rem;
+    width: 327px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.upgrade-button {
+    background: #a99af5;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upgrade-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.upgrade-button:hover {
+    background: #9184e2;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+@media (min-width: 380px) {
+    .footer {
+        position: fixed;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body {
+        height: 100vh;
+    }
+}
