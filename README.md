@@ -19,8 +19,6 @@ MusicAI - Eterna Case, yapay zeka destekli bir müzik uygulamasının modern ve 
 
 ## 🎥 Demo Video
 
-![MusicAI Demo Video]
-
 https://github.com/user-attachments/assets/cddc8eba-e16d-441f-9ad2-10b510c5ee29
 
 
